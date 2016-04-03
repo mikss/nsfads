@@ -6,11 +6,11 @@ This repository contains [R](https://www.r-project.org) code to munge, analyze, 
 
 The relevant files are:
 
-   xml_munge.R
-   gen_tdm.R
-   tdm_dms.R
-   ui.R
-   server.R
+    xml_munge.R
+    gen_tdm.R
+    tdm_dms.R
+    ui.R
+    server.R
 
 For any questions, bug reports, etc., contact [Steven S. Kim](http://ssk.im) via e-mail at [steven_kim@brown.edu](mailto:steven_kim@brown.edu).
 
@@ -18,13 +18,13 @@ For any questions, bug reports, etc., contact [Steven S. Kim](http://ssk.im) via
 
 Required R packages include:
 
-   XML
-   plyr
-   data.table
-   tm
-   RWeka
-   ggplot2
-   stringr
+    XML
+    plyr
+    data.table
+    tm
+    RWeka
+    ggplot2
+    stringr
 
 The XML files containing abstract data were downloaded from the [NSF website](https://www.nsf.gov/awardsearch/download.jsp).
 
