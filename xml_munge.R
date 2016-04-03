@@ -1,12 +1,10 @@
-# xml_munge.R
-# rolls through NSF XML data and pumps out one data table per year
+# FILE: xml_munge.R
+# DESC: munges through NSF XML data and outputs one data table per year
+# USAGE: download XML files from https://www.nsf.gov/awardsearch/download.jsp and place in HOME_DIR/AWARD_PATH/ with one folder per year in YEARS; the output is one .Rds file per year, each containing a data table for all awards granted in that year
 
 library(XML)
 library(plyr)
 library(data.table)
-
-# ptm <- proc.time()
-# proc.time() - ptm         # 10 minutes for 10 years
 
 HOME_DIR = "/Users/stevenkim/R-files/nsfads/"
 AWARD_PATH <- "nsf_grants/"

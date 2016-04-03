@@ -1,5 +1,6 @@
-# dms_tdm.R
-# cleans up and sparsifies the big NSF TermDocumentMatrix for Division of Mathematical Sciences only
+# FILE: dms_tdm.R
+# DESC: cleans up and sparsifies the big NSF TermDocumentMatrix for Division of Mathematical Sciences only
+# USAGE: given the tdm.rds read from gen_tdm.R, this file looks only at the first division and sparsifies it (only looks at terms appearing in abstracts from at least 20% of the years)
 
 YEARS <- 1990:2015
 div <- 1
