@@ -47,6 +47,7 @@ The XML files containing abstract data were downloaded from the [NSF website](ht
 * Some eventual TODOs:
    - smoothing the time series
    - a "shuffle" option incorporating list of sample queries
+   - make the plot interactive with tool-tips on hover
    - look at all divisions and make comparisons across NSF
    - compare to NIH/DOD/NSERC funding priorities
    - use a Markov model to generate a "sample" abstract
